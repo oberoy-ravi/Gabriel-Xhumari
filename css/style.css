@@ -115,7 +115,7 @@ body {
     opacity: .7;
 }
 
-/* #darkMode-icon {
+#darkMode-icon {
     font-size: 2.4rem;
     color: var(--white-color);
     cursor: pointer;
@@ -124,7 +124,7 @@ body {
 .header.sticky #darkMode-icon {
     color: var(--text-color);
     opacity: .9;
-} */
+} 
 
 #menu-icon {
     font-size: 3.6rem;
@@ -227,10 +227,10 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* animation: professionRotate 13s ease-out infinite; */
+     animation: professionRotate 13s ease-out infinite; 
 }
 
-/* @keyframes professionRotate {
+ @keyframes professionRotate {
 
     0%,
     20% {
@@ -255,7 +255,7 @@ section {
     100% {
         transform: rotate(-360deg);
     }
-} */
+} 
 
 .home .profession-box .profession {
     position: absolute;
@@ -673,13 +673,13 @@ span {
         display: block;
     }
 
-    /* #darkMode-icon {
+    #darkMode-icon {
         position: absolute;
         right: 7rem;
         font-size: 2.6rem;
         color: var(--text-color);
         margin-bottom: .1rem;
-    } */
+    } 
 
     .navbar {
         position: absolute;
@@ -824,9 +824,9 @@ span {
         font-size: 50%;
     }
 
-    /* #darkMode-icon {
+     #darkMode-icon {
         right: 6rem;
-    } */
+    } 
 
     .home .profession-container .overlay {
         top: 80rem;
